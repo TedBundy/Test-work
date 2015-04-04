@@ -1,0 +1,12 @@
+.romb {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: -2px;
+  top: -5px;
+  background-color: #4ccde8;
+  @include rotate(-45deg);
+  img.star {
+    padding: 2px;
+  }
+}

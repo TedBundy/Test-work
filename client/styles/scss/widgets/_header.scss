@@ -1,0 +1,115 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  @include clearfix;
+  nav {
+    .navbar-header {
+      float: left;
+      button {
+        width: 56px;
+        height: 56px;
+        background-color: rgba(20, 20, 20, 0.6);
+        @include transition-property(all);
+        @include transition-duration(400ms);
+        &:focus {
+          background-color: #269abc;
+        }
+        &:hover {
+          background-color: #269abc;
+        }
+        &:active {
+          background-color: #269abc;
+        }
+      }
+    }
+
+    .collapse-navbar {
+      height: 56px;
+      background-color: rgba(20, 20, 20, 0.6);
+      @include clearfix;
+      ul {
+        font-size: 0;
+        li {
+          display: inline-block;
+          font-size: 16px;
+          font-weight: 700;
+          a {
+            padding: 0;
+            color: #ffffff;
+          }
+        }
+      }
+      .navbar-right {
+        float: right;
+        li {
+          padding-left: 10px;
+          vertical-align: middle;
+          &:last-child {
+            padding-left: 14px;
+          }
+          a:hover {
+            background-color: inherit;
+          }
+          a:focus {
+            background-color: inherit;
+          }
+          a:visited {
+            background-color: inherit;
+          }
+          a:active {
+            background-color: inherit;
+          }
+        }
+      }
+      .navbar-left {
+        float: left;
+        padding-left: 20px;
+        line-height: 52px;
+        a {
+          @include transition-property(all);
+          @include transition-duration(400ms);
+        }
+        a:hover {
+          background-color: inherit;
+          color: #4ccde8;
+        }
+        a:focus {
+          background-color: inherit;
+        }
+        a:visited {
+          background-color: inherit;
+        }
+        a:active {
+          background-color: inherit;
+        }
+      }
+      time {
+        padding-left: 8px;
+        line-height: 50px;
+        a {
+          font-family: "Roboto", sans-serif;
+          font-weight: 700;
+          font-size: 16px;
+          border-bottom: 1px solid;
+          color: #ffffff;
+          @include transition-property(all);
+          @include transition-duration(400ms);
+        }
+        a:hover {
+          color: #4ccde8;
+        }
+      }
+    }
+  }
+  .navbar-toggle {
+    padding: 13px 20px 18px 20px;
+    border: none;
+    border-radius: 0;
+  }
+}
