@@ -7,8 +7,8 @@ header {
   width: 100%;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  @include clearfix;
   nav {
+    @include clearfix;
     .navbar-header {
       float: left;
       button {
@@ -21,9 +21,6 @@ header {
           background-color: #269abc;
         }
         &:hover {
-          background-color: #269abc;
-        }
-        &:active {
           background-color: #269abc;
         }
       }

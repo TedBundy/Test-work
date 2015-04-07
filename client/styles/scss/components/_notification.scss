@@ -1,21 +1,5 @@
 .notification {
-  margin-bottom: 5px;
-  &::after {
-    content: '';
-  }
-}
-
-.bubble {
-  position: relative;
-  top: -12px;
-  left: -13px;
-  color: #383838;
-  background-color: #06ed00;
-  width: 15px;
-  height: 15px;
-  font-size: 10px;
-  padding-left: 4px;
-  padding-right: 4px;
-  border: 1px solid #6c6c6c;
-  @include border-radius(50px);
+ span{
+  display: none;
+ }
 }

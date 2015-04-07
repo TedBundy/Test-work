@@ -1,13 +1,20 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "compass/css3/transform";
+
 @import "lib/bootstrap/bootstrap";
+
 @import "mixins/calc";
 @import "mixins/user-select";
+
 @import "base";
+
 @import "components/icon";
 @import "components/notification";
 @import "components/romb";
+@import "components/icon-bell";
+@import "components/add-photo";
+
 @import "widgets/header";
 @import "widgets/gallery";
 
