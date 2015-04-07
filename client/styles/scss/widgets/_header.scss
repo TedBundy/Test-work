@@ -48,7 +48,7 @@ header {
           padding-left: 10px;
           vertical-align: middle;
           &:last-child {
-            padding-left: 14px;
+            margin-left: -14px;
           }
           a:hover {
             background-color: inherit;

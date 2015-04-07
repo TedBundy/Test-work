@@ -2670,7 +2670,7 @@ header nav .collapse-navbar .navbar-right li {
 }
 /* line 50, ../scss/widgets/_header.scss */
 header nav .collapse-navbar .navbar-right li:last-child {
-  padding-left: 14px;
+  margin-left: -14px;
 }
 /* line 53, ../scss/widgets/_header.scss */
 header nav .collapse-navbar .navbar-right li a:hover {
